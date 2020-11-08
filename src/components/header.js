@@ -11,7 +11,7 @@ import Login from "../../pages/Login/Login";
 import { container } from "../assets/jss/material-dashboard-react";
 import { TransitionProps } from "@material-ui/core/transitions";
 import Dialog from "@material-ui/core/Dialog";
-import { CustomMenu } from "./Header/CustomMenu.tsx";
+import { CustomMenu } from "./Header/CustomMenu.js";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 
