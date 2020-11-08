@@ -1,0 +1,309 @@
+.cards-list {
+  direction: rtl;
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 40px auto;
+  width: 650px;
+  height: 600px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+}
+
+// .card:hover {
+//   transform: scale(0.98, 0.98);
+//   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+//     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+// }
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+.card-heading {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 24px;
+  margin-left: 1em;
+  border-bottom: 1px #932aad;
+  color: #fff;
+}
+.card-header-blue {
+  border-radius: 5px;
+  position: relative;
+  top: -30px;
+  left: -20px;
+  width: 94%;
+  // height: 7rem;
+  background-color: #556cd6;
+  color: #ffffff;
+  border-bottom: 3px solid #bbb;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Cairo", sans-serif;
+  padding: 0px;
+  margin-top: 0px;
+  overflow: hidden;
+  -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.detail-button {
+  position: relative;
+  top: -15px;
+  width: 90%;
+  border-radius: 5px;
+  left: -5%;
+  background-color: #932aad;
+  color: #ffffff;
+  border: 2px solid #bbb;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+// عمودی
+.header-line-vertical {
+  height: 35px;
+  position: relative;
+  top: 25px;
+  left: -50%;
+  width: 1px;
+  border-right: 1px solid;
+  color: #cfcbcb;
+}
+.body-line-vertical {
+  height: 220px;
+  position: absolute;
+  left: 50%;
+  top: 123px;
+  width: 1px;
+  border-right: 1px solid;
+  color: #cfcbcb;
+}
+// افقی
+.header-line-horizontal {
+  position: relative;
+  top: 45%;
+  border-top: 1px solid;
+  color: #cfcbcb;
+}
+.body-line-horizontal {
+  position: relative;
+  top: -45px;
+  // left: -5%;
+  margin-bottom: -90px;
+  // width: 90%;
+}
+.label-right {
+  text-align: right;
+  padding-right: 20px;
+  position: relative;
+  top: 50px;
+  font-size: 14px;
+  // margin-bottom: -55px;
+}
+.label-right-value {
+  text-align: right;
+  position: relative;
+  left: -95px;
+  top: 23px;
+  font-size: 13px;
+  display: block;
+  width: 300px;
+}
+.label-left {
+  // text-align: left;
+  position: relative;
+  left: -100px;
+  top: -3px;
+  font-size: 14px;
+  height: 20px;
+  display: block;
+  width: 300px;
+}
+.label-left-value {
+  position: relative;
+  top: -28px;
+  left: -140px;
+  font-size: 13px;
+  display: block;
+  width: 400px;
+
+  width: 300px;
+}
+
+.label-address {
+  padding-right: 20px;
+  text-align: right;
+  position: relative;
+  top: -15px;
+  font-size: 14px;
+}
+.label-address-value {
+  text-align: right;
+  position: relative;
+  left: -80px;
+  top: -40px;
+  font-size: 13px;
+}
+.label-malek {
+  padding-right: 20px;
+  text-align: right;
+  position: relative;
+  font-size: 18px;
+}
+.label-desc {
+  padding-right: 20px;
+  text-align: right;
+  position: relative;
+  font-size: 14px;
+}
+
+.label-price {
+  text-align: center;
+  position: relative;
+  top: 25px;
+  font-size: 14px;
+}
+.label-transferType {
+  position: relative;
+  top: -60px;
+  text-align: center;
+}
+.label-id {
+  text-align: right;
+  padding-right: 10px;
+  position: absolute;
+  bottom: -2px;
+}
+.label-date {
+  text-align: left;
+  position: relative;
+  padding-left: 10px;
+  bottom: 37px;
+}
+.table-pagination {
+  direction: ltr;
+}
+@media screen and (max-width: 695px) {
+  .cards-list-detail {
+    direction: rtl;
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+  }
+
+  .card {
+    width: 450px;
+    height: 510px;
+  }
+  .card-header-blue {
+    width: 90%;
+    height: 6rem;
+  }
+  .detail-button {
+    position: relative;
+    left: 20px;
+  }
+  .label-right {
+    text-align: right;
+    position: relative;
+    top: 40px;
+    font-size: 13px;
+  }
+  .label-right-value {
+    position: relative;
+    top: 15px;
+  }
+
+  .label-left {
+    position: relative;
+    left: 0px;
+    top: -15px;
+    font-size: 13px;
+  }
+  .label-left-value {
+    position: relative;
+    left: -30px;
+    top: -40px;
+  }
+  .label-price {
+    position: relative;
+    top: 15px;
+  }
+  .detail-button {
+    position: relative;
+    top: -15px;
+    width: 90%;
+    border-radius: 5px;
+    left: -21px;
+  }
+
+  // عمودی
+  .header-line-vertical {
+    height: 40px;
+    position: relative;
+    top: 22px;
+    left: -50%;
+    width: 1px;
+    border-right: 1px solid;
+    color: #cfcbcb;
+  }
+  .body-line-vertical {
+    height: 217px;
+    position: absolute;
+    left: 50%;
+    top: 111px;
+    width: 1px;
+    border-right: 1px solid;
+    color: #cfcbcb;
+  }
+  // افقی
+  .header-line-horizontal {
+    position: relative;
+    top: 40%;
+    border-top: 1px solid;
+    color: #cfcbcb;
+  }
+  .body-line-horizontal {
+    position: relative;
+    top: -57px;
+  }
+  .label-stateType {
+    text-align: center;
+    position: relative;
+    top: -65px;
+    right: -15%;
+    font-size: 25px;
+  }
+  .label-id {
+    text-align: right;
+    position: absolute;
+    padding-right: 10px;
+    top: 65px;
+  }
+  .label-date {
+    text-align: left;
+    // max-width: 150px;
+    position: relative;
+    top: -45px;
+    padding-left: 10px;
+    // right: -20%;
+    // font-size: 15px;
+  }
+  // text-align: left;
+  // position: relative;
+  // padding-left: 10px;
+  // bottom: 45px;
+}

@@ -1,0 +1,16 @@
+/* font-Tanha */
+  @font-face {
+      font-family: Tanha;
+      src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot');
+      src: url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.eot?#iefix') format('embedded-opentype'),
+           url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.woff') format('woff'),
+           url('http://fonts.codearena.ir/rastikerdar/tanha/tanha.ttf') format('truetype');
+      font-weight: normal;
+    }
+
+@font-face {
+    font-family: 'DimaSogand';
+    src: local('â??'), url('http://www.fontirani.ir/fonts/DimaSogand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}           

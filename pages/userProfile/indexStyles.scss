@@ -1,0 +1,233 @@
+.userProfile-CardHeader {
+  text-align: right;
+}
+.userProfile-CardBody {
+  direction: rtl;
+  height: 510px;
+  text-align: right;
+  div#region {
+    position: relative;
+    width: 30%;
+    top: 0px;
+  }
+  div#transferType {
+    position: relative;
+    left: -35%;
+    width: 30%;
+    top: -67px;
+  }
+  div#estateType {
+    position: relative;
+    right: 70%;
+    width: 30%;
+    top: -133px;
+  }
+
+  div#priceLow {
+    position: relative;
+    margin-top: 15px;
+    width: 30%;
+    top: -135px;
+  }
+  div#priceHigh {
+    position: relative;
+    margin-top: 5px;
+    width: 30%;
+    top: -135px;
+  }
+  div#mortgagesLow {
+    position: relative;
+    width: 30%;
+    top: -250px;
+    left: -35%;
+  }
+  div#mortgagesHigh {
+    position: relative;
+    width: 30%;
+    top: -245px;
+    left: -35%;
+  }
+  div#rentLow {
+    position: relative;
+    width: 30%;
+    top: -360px;
+    left: -70%;
+  }
+  div#rentHigh {
+    position: relative;
+    width: 30%;
+    top: -355px;
+    left: -70%;
+  }
+  div#age {
+    position: relative;
+    width: 30%;
+    top: -340px;
+  }
+  div#areaHigh {
+    position: relative;
+    width: 14%;
+    top: -407px;
+    left: -35%;
+  }
+  div#areaLow {
+    position: relative;
+    width: 14%;
+    top: -447px;
+    left: -51%;
+  }
+  div#dcmType {
+    position: relative;
+    width: 30%;
+    top: -515px;
+    left: -70%;
+  }
+  div#rooms {
+    position: relative;
+    width: 30%;
+    top: -500px;
+  }
+  div#floor {
+    position: relative;
+    width: 30%;
+    top: -567px;
+    left: -35%;
+  }
+  div#options {
+    position: relative;
+    width: 30%;
+    top: -633px;
+    left: -70%;
+  }
+  div#address {
+    position: relative;
+    width: 100%;
+    top: -620px;
+  }
+  div#userProfile-button {
+    position: relative;
+    top: -600px;
+    padding-left: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .userProfile-CardBody {
+    height: 1120px;
+
+    div#region {
+      position: relative;
+      width: 100%;
+      top: 0px;
+      margin-bottom: 30px;
+    }
+    div#transferType {
+      position: relative;
+      left: 0;
+      width: 100%;
+      top: -20px;
+      margin-bottom: 30px;
+    }
+    div#estateType {
+      position: relative;
+      right: 0;
+      width: 100%;
+      top: -40px;
+      margin-bottom: 50px;
+    }
+    div#priceLow {
+      position: relative;
+      right: 0;
+      width: 49%;
+      top: -80px;
+      margin-bottom: 30px;
+    }
+    div#priceHigh {
+      position: relative;
+      right: 51%;
+      width: 49%;
+      top: -150px;
+    }
+    div#mortgagesLow {
+      position: relative;
+      width: 49%;
+      right: 0;
+      top: -130px;
+      margin-bottom: 30px;
+    }
+    div#mortgagesHigh {
+      position: relative;
+      width: 49%;
+      right: 51%;
+      top: -200px;
+      margin-bottom: 30px;
+    }
+    div#rentLow {
+      position: relative;
+      width: 49%;
+      top: -210px;
+      right: 0;
+      margin-bottom: 30px;
+    }
+    div#rentHigh {
+      position: relative;
+      width: 49%;
+      top: -280px;
+      right: 51%;
+      margin-bottom: 30px;
+    }
+    div#age {
+      position: relative;
+      width: 100%;
+      top: -300px;
+      margin-bottom: 30px;
+    }
+    div#areaHigh {
+      position: relative;
+      width: 49%;
+      top: -320px;
+      right: 0;
+      margin-bottom: 30px;
+    }
+    div#areaLow {
+      position: relative;
+      width: 49%;
+      top: -390px;
+      right: 51%;
+    }
+    div#dcmType {
+      position: relative;
+      width: 100%;
+      top: -385px;
+      right: 0;
+    }
+    div#rooms {
+      position: relative;
+      width: 100%;
+      top: -375px;
+      right: 0;
+    }
+    div#floor {
+      position: relative;
+      width: 100%;
+      top: -365px;
+      left: 0;
+    }
+    div#options {
+      position: relative;
+      width: 100%;
+      top: -355px;
+      left: 0;
+    }
+    div#address {
+      position: relative;
+      width: 100%;
+      top: -345px;
+      left: 0;
+    }
+    div#userProfile-button {
+      position: relative;
+      top: -340px;
+      padding-left: 100%;
+    }
+  }
+}
